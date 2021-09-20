@@ -22,11 +22,11 @@ Then, run the program:
 
 `jupyter notebook` 
 
-in the root directory of the repository, if you already installed
+in the root directory of the repository -- provided that you already installed
 `jupyter` in your computer (see instructions below).
 
 Alternatively, you can skip the manual installation of `jupyter`
-and run it through docker as follows:
+and run it through [docker](https://hub.docker.com/editions/community/docker-ce-desktop-windows) as follows:
 
 `docker run -it --rm -p 8888:8888 -p 4040:4040 -m 4g -v "$PWD":/home/jovyan/work almondsh/almond:latest` (LINUX)
 
@@ -42,7 +42,8 @@ environment MyApps (just for URJC users).
 To install jupyter and run Scala notebooks, follow these steps:
 
 * Install the package manager [`conda`](https://docs.conda.io/en/latest/miniconda.html), or use `pip`, the python package manager.
-* Install [`jupyter`](https://jupyter.org/install) itself
+* Install [`jupyter`](https://jupyter.org/install) itself. 
+* Alternatively, you can also find jupyter notebooks for free when installing [anaconda](https://www.anaconda.com/products/individual-d).
 * Install the Scala plugin [`almond`](https://almond.sh/docs/quick-start-install)
 
 
